@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FoodWEB</title>
+</head>
+
+<body>
+    <div id="MAINPART">
+        <div id="LOGO">
+            <img id="logo1" src="imag1.jpg">
+            <button id="REFREST">Home</button>
+        </div><br>
+        <div id="ABOUT">
+            <h1>Welcome to FoodWEB</h1>
+            <p>This is a meal generation app that helps foodies find their favorite dishes. Also , user can find their favorite recipes and also their ingredients. User can find their daily meals and can enjoy it too ! </p><br>
+        </div>
+    </div>
+    <div>
+        <div>
+            <button class="Button" id="mode1">Category</button> <button class="Button"
+                id="mode2">Region</button> <button class="Button" id="mode3">Letter</button><br><br>
+            <div><input id="searchBar" type="text" placeholder="Search for your scrumptious meal..."><Button
+                    id="SearchButton">Search</Button></div>
+        </div>
+    </div>
+    <h2>Random Meal</h2>
+    <div id="Card">
+    </div><br>
+    <div>
+        <h2 id="searchInput"></h2>
+    </div>
+    <div id="results">
+    </div>
+
+    <div id="nex" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h4>Ingredients</h4>
+            <br>
+            <hr><br>
+            <div id="ingredients">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
